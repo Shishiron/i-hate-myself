@@ -1,0 +1,134 @@
+
+header {
+    background-color: transparent;
+    border: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding:25px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+}
+.img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    margin: auto auto;
+}
+
+a {text-decoration: none;
+    color: white;
+}
+body{
+    background-image: url(image/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.button {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f200ff78; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px; 
+    box-shadow: 1px 1px 15px rgb(0, 0, 0); 
+    margin: 20px; 
+    text-align: center;
+    background-position: center center;
+    cursor: pointer;
+    transition: 0.5s ;
+  
+}
+.p {
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'Impact', 'Arial Black', 'Arial', sans-serif;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 8px #000, 0 0 10px rgb(255, 0, 0);
+
+
+}
+
+.button2 {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f200ff78; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px; 
+    box-shadow: 1px 1px 15px rgb(0, 0, 0); 
+    margin: 20px; 
+    text-align: center;
+    background-position: center center;
+    cursor: pointer;
+    transition: 0.5s ;
+  
+}
+.button:hover {
+    background-color: #f200ffd0;
+}
+.button2:hover {
+    background-color: #ff0000d0;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Times New Roman';
+    color: rgb(255, 255, 255);
+    font-size: 20px ;
+}
+
+@media only screen and (max-width: 476px) {
+    header {
+        background-color: transparent;
+        border: 20px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding:25px;
+        font-size: small;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    a {text-decoration: none;
+        color: white;
+    }
+    body{
+        background-image: url(image/wallpaper.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100;
+        background-position: center;
+    }
+    
+    .button {
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #f200ff78; 
+        justify-content: center;
+        align-items: center;
+        border-radius: 150px; 
+        box-shadow: 1px 1px 15px rgb(0, 0, 0); 
+        margin: 20px; 
+        text-align: center;
+        background-position: center center;
+        font-size: small;
+        cursor: pointer;
+        transition: 0.5s ;
+      
+    }
+    .button:hover {
+    background-color: #f200ffd0;
+}
+    footer{
+        text-align: center;
+        font-family: 'Times New Roman';
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+    }
+
+}
